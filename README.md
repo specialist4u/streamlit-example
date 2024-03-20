@@ -1,6 +1,10 @@
-# Welcome to Streamlit!
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+## Get an OpenAI API key
+
+You can get your own OpenAI API key by following the following instructions:
+1. Go to https://platform.openai.com/account/api-keys.
+2. Click on the `+ Create new secret key` button.
+3. Next, enter an identifier name (optional) and click on the `Create secret key` button.
+
+

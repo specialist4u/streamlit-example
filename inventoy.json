@@ -1,0 +1,241 @@
+{
+  "pageNum": 0,
+  "pageSize": 5,
+  "result": [
+    {
+      "is_active": true,
+      "id": 2673,
+      "vin": "WAWLN5C59H2000018",
+      "lender_id": null,
+      "vehicle_status": "Available",
+      "dealer_option_descriptions": "",
+      "vehicle": {
+        "city": "New York",
+        "msrp": 46445.0,
+        "body_type": "Coupe",
+        "engine_power": null,
+        "exterior_color_manufacturer_code": null,
+        "engine": null,
+        "is_active": true,
+        "state": "New York",
+        "mileage": 2,
+        "body_style": "Coupe",
+        "zip": "10019",
+        "make": "BMW",
+        "exterior_color_description": "Alpine White",
+        "photo_urls": [
+          {
+            "name": "image_10ebf2",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/230i/230-01.webp"
+          },
+          {
+            "name": "image_c884d8",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/230i/230-02.png"
+          },
+          {
+            "name": "image_7402b6",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/230i/230-03.webp"
+          },
+          {
+            "name": "image_97bc45",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/230i/230-04.png"
+          },
+          {
+            "name": "image_28bb0e",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/230i/230-05.png"
+          },
+          {
+            "name": "image_3ac5b4",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/230i/230-06.jpg"
+          }
+        ],
+        "id": 2911,
+        "model_code": "B2001",
+        "interior_color_description": "Cognac",
+        "doors": 2,
+        "dealer_id": "2703",
+        "vin": "WAWLN5C59H2000018",
+        "dealer_code": "00001",
+        "trim_description": "230i xDrive",
+        "vehicle_comments": null,
+        "engine_cylinders": 4,
+        "fuel_type": "Petrol",
+        "doing_business_as": "BMW of Manhattan",
+        "email": "abubakar.aqeel@netsoltech.com",
+        "year": 2023,
+        "type": "New",
+        "engine_description": "2.0 Liter BMW TwinPower",
+        "warranty": null,
+        "model": "2 Series",
+        "address_title": null,
+        "contact_name": "JohnDoe",
+        "internet_price": 46445,
+        "transmission_type": "8-Speed Automatic",
+        "vehicle_class": null,
+        "vehicle_url": null,
+        "vehicle_display_name": null,
+        "address": "555 W 57th St ",
+        "price_2": null,
+        "transmission_description": null,
+        "drive_train": "AWD"
+      }
+    },
+    {
+      "is_active": true,
+      "id": 2670,
+      "vin": "WBX73EF03P5X60787",
+      "lender_id": null,
+      "vehicle_status": "Available",
+      "dealer_option_descriptions": "Active Suspension",
+      "vehicle": {
+        "city": "New York",
+        "msrp": 44480.0,
+        "body_type": "Crossover",
+        "engine_power": null,
+        "exterior_color_manufacturer_code": null,
+        "engine": null,
+        "is_active": true,
+        "state": "New York",
+        "mileage": 2,
+        "body_style": "Compact",
+        "zip": "10019",
+        "make": "BMW",
+        "exterior_color_description": "Alpine White",
+        "photo_urls": [
+          {
+            "name": "image_b4a478",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/0787/x1-01.png"
+          },
+          {
+            "name": "image_dcbf9b",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/0787/x1-02.png"
+          },
+          {
+            "name": "image_156234",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/0787/x1-03.webp"
+          },
+          {
+            "name": "image_5f565f",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/0787/x1-04.png"
+          },
+          {
+            "name": "image_72a532",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/0787/x1-05.png"
+          },
+          {
+            "name": "image_11d6b1",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/0787/x1-06.jpg"
+          }
+        ],
+        "id": 2908,
+        "model_code": "X1001",
+        "interior_color_description": "Black",
+        "doors": 4,
+        "dealer_id": "2703",
+        "vin": "WBX73EF03P5X60787",
+        "dealer_code": "00001",
+        "trim_description": "xDrive 28i",
+        "vehicle_comments": null,
+        "engine_cylinders": 4,
+        "fuel_type": "Petrol",
+        "doing_business_as": "BMW of Manhattan",
+        "email": "abubakar.aqeel@netsoltech.com",
+        "year": 2023,
+        "type": "New",
+        "engine_description": "2.0 Liter BMW TwinPower",
+        "warranty": null,
+        "model": "X1",
+        "address_title": null,
+        "contact_name": "JohnDoe",
+        "internet_price": 44480,
+        "transmission_type": "8-Speed Automatic",
+        "vehicle_class": null,
+        "vehicle_url": null,
+        "vehicle_display_name": null,
+        "address": "555 W 57th St ",
+        "price_2": null,
+        "transmission_description": null,
+        "drive_train": "AWD"
+      }
+    },
+    {
+      "is_active": true,
+      "id": 2667,
+      "vin": "WAWLN5C59H2000012",
+      "lender_id": null,
+      "vehicle_status": "Available",
+      "dealer_option_descriptions": "Chrome Line Exterior Trim",
+      "vehicle": {
+        "city": "New York",
+        "msrp": 46500.0,
+        "body_type": "Sedan",
+        "engine_power": null,
+        "exterior_color_manufacturer_code": null,
+        "engine": null,
+        "is_active": true,
+        "state": "New York",
+        "mileage": 1,
+        "body_style": "Compact",
+        "zip": "10019",
+        "make": "BMW",
+        "exterior_color_description": "Carbon Black Metallic",
+        "photo_urls": [
+          {
+            "name": "image_312eb0",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/330i/330i_01.webp"
+          },
+          {
+            "name": "image_e60f3b",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/330i/330i_02.jpg"
+          },
+          {
+            "name": "image_f61c80",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/330i/330i_03.webp"
+          },
+          {
+            "name": "image_958a4b",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/330i/330i_04.webp"
+          },
+          {
+            "name": "image_ac8e3c",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/330i/330i_05.webp"
+          },
+          {
+            "name": "image_3b6ecd",
+            "location": "https://bmwdemoimages.s3.ap-southeast-2.amazonaws.com/330i/330i_06.webp"
+          }
+        ],
+        "id": 2905,
+        "model_code": "B3001",
+        "interior_color_description": "Black",
+        "doors": 4,
+        "dealer_id": "2703",
+        "vin": "WAWLN5C59H2000012",
+        "dealer_code": "00001",
+        "trim_description": "330i xDrive",
+        "vehicle_comments": null,
+        "engine_cylinders": 4,
+        "fuel_type": "Petrol",
+        "doing_business_as": "BMW of Manhattan",
+        "email": "abubakar.aqeel@netsoltech.com",
+        "year": 2023,
+        "type": "New",
+        "engine_description": "2.0 Liter BMW TwinPower",
+        "warranty": null,
+        "model": "3 Series",
+        "address_title": null,
+        "contact_name": "JohnDoe",
+        "internet_price": 46500,
+        "transmission_type": "8-Speed Automatic",
+        "vehicle_class": null,
+        "vehicle_url": null,
+        "vehicle_display_name": null,
+        "address": "555 W 57th St ",
+        "price_2": null,
+        "transmission_description": null,
+        "drive_train": "AWD"
+      }
+    }
+  ],
+  "totalResults": 3
+}
