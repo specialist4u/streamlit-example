@@ -21,7 +21,7 @@ image_logo = Image.open('pngegg.png')
 
 st.set_page_config(page_title="Chatbot", layout="centered", initial_sidebar_state="collapsed", menu_items=None,)
 
-instructions = "Please ask the user about a) location, b) plans to own the car long term or short term, and c) use of car for commuting or weekend driving, and d) are you leasing or financing, so that you can suggest appropriate finance and insurance products. Start the conversation by introducing yourself first."
+instructions = "Please ask the user about a) location, b) plans to own the vehicle long term or short term, and c) use of vehicle for commuting or weekend driving, and d) are you leasing or financing, so that you can suggest appropriate finance and insurance products. Start the conversation by introducing yourself first."
 
 questions_instructions = ""
 
@@ -43,14 +43,14 @@ with st.sidebar:
             duration_instruction = "User wants to own  vehicle for " + st.session_state.params["duration"][0]+". "
             temp = temp + duration_instruction
         else:
-            questions_instructions = questions_instructions + "Please ask the user about plans to own the car long term or short term. "
+            questions_instructions = questions_instructions + "Please ask the user about plans to own the vehicle long term or short term. "
 
         if "usage" in st.session_state.params.keys():
             #st.write("usage: " +st.session_state.params["usage"][0])
-            usage_instruction = "User want to use car for " + st.session_state.params["usage"][0]+" purpose. "
+            usage_instruction = "User want to use vehicle for " + st.session_state.params["usage"][0]+" purpose. "
             temp = temp + usage_instruction
         else:
-            questions_instructions = questions_instructions + "Please ask the user about use of car for commuting or weekend driving. "
+            questions_instructions = questions_instructions + "Please ask the user about use of vehicle for commuting or weekend driving. "
 
         if "deal_type" in st.session_state.params.keys():
             #st.write("deal_type: " +st.session_state.params["deal_type"][0])
@@ -78,21 +78,21 @@ with st.sidebar:
 
 
 system_role = """
-        Assume that you are a car dealer assistant that responds in markdown format. A customer is interested in buying a car and may have selected a vehicle, check conversation history to verify. Your goal is to negotiate and upsell long term finance and insurance product offerings for the Vehicle. In case the customer declines a service, creatively ask for the reason and capture the answers for the manager for review.
+        Assume that you are a vehicle dealer assistant that responds in markdown format. A customer is interested in buying a vehicle and may have selected a vehicle, check conversation history to verify. Your goal is to negotiate and upsell long term finance and insurance product offerings for the Vehicle. In case the customer declines a service, creatively ask for the reason and capture the answers for the manager for review.
     
         The following product offerings are available with their costs terms and average repair cost:
-            - Extended Warranty / Vehicle Service Contract : cost is $1999.00 for 36 months and average repair cost is $3200.00.
+            - Extended Warranty / Vehicle Service Contract : cost is $19999.00 for 36 months and average repair cost is $3200.00.
             - Pre-paid Maintenance Contract : cost is $1999.00 for 36 months and average repair cost is $4500.00.
-            - GAP Insurance (Standard): cost is $1199.00 for 36 month and average cost for claim is $3000.00.
-            - Tire & Wheel Protection (with Cosmetric coverage) : cost is $1936.00 for 36 months and average repair cost is $3000.00.
-            - Tire & Wheel Protection : cost is $1466.00 for 36 months and average repair cost is $2500.00.
-            - Dent Protection : cost is $410.00 for 36 months and average repair cost is $2000.00.
-            - Key Replacement : cost is $270.00 for 36 months and average replacement cost is $1000.00.
-            - Windshield Protection : cost is $262.00 for 36 months and average replacement cost is $3500.00.
-            - Stolen Vehicle Tracking and Recovery System : cost is $1000.00 for 36 months and average replacement is cost of vehicle itself
+            - GAP Insurance (Standard): cost is $11999.00 for 36 month and average cost for claim is $3000.00.
+            - Tire & Wheel Protection (with Cosmetric coverage) : cost is $19366.00 for 36 months and average repair cost is $3000.00.
+            - Tire & Wheel Protection : cost is $14666.00 for 36 months and average repair cost is $2500.00.
+            - Dent Protection : cost is $4100.00 for 36 months and average repair cost is $2000.00.
+            - Key Replacement : cost is $2700.00 for 36 months and average replacement cost is $1000.00.
+            - Windshield Protection : cost is $2622.00 for 36 months and average replacement cost is $3500.00.
+            - Stolen Vehicle Tracking and Recovery System : cost is $10000.00 for 36 months and average replacement is cost of vehicle itself
 
         Your goal is sell the appropriate product offerings to the customer. The chances of the customer buying a product depends on: 
-            1. How long customer intends to be the car owner. If customer is planning to be a long term owner then customer would be interested in extended warranty.
+            1. How long customer intends to be the vehicle owner. If customer is planning to be a long term owner then customer would be interested in extended warranty.
             2. customer's intended vehicle usage: commuting or weekend driving. customer may be interesting in Tire and Wheel protection, windshield protection, and dent & ding protection. 
             3. Is cutomer worried about crime in the area? or is located in a city where Crime is High? if yes, they might be interested in Stolen Vehicle Tracking and Recovery System coverage
             4. Is the customer located in a city where Roads are Bad, they might be intersted in Tire & Wheel Protection, Dent Protection and Windshield Protection coverage.
@@ -113,7 +113,7 @@ system_role = """
 
         Please ask customer terse questions to get this information if the information has been provided show in summarized form and if user asks for details then show the average cost to repair/replace with crime rate and road conditions. Using this information, please show the average monthly cost for these products, and also ask the customer if they are interested in knowing more about specific product offerings, mentioning the products based on customer's info, in the form of terse questions. If customer asks a question in response, reply from the information given in this prompt. Please feel free to ask questions to the customer to get the information needed to select the products.
     
-        Always stay in character as a  car dealer assistant.Respond in the same language as request. If question is asked in chinese response in chinese. Be terse in your answers but with all relevant information in summarized form. Always sell the Pre-paid Maintenance Contract with all sales. Limit to only 3 products provided to customer in summarized form, display costs at first. 
+        Always stay in character as a  vehicle dealer assistant.Respond in the same language as request. If question is asked in chinese response in chinese. Be terse in your answers but with all relevant information in summarized form. Always sell the Pre-paid Maintenance Contract with all sales. Limit to only 3 products provided to customer in summarized form, display costs at first. 
 
         """
 
