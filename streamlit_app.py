@@ -3,7 +3,7 @@ from openai import AzureOpenAI
 from PIL import Image
 client = AzureOpenAI(
   azure_endpoint = "https://gpt4enveastus2.openai.azure.com/", 
-  api_key="20b88a77169840309ae1f53cf84c5787",  
+  api_key="edde0127e3144e5598ea97595f6fd440",  
   api_version="2023-05-15"#"2024-02-15-preview"
 )
 # openai.api_base = "https://gpt4enveastus2.openai.azure.com/"
