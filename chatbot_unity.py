@@ -10,7 +10,7 @@ client = AzureOpenAI(
 )
 
 # openai.api_base = "https://gpt4enveastus2.openai.azure.com/"
-# openai.api_version = "2023-05-15" # "2023-09-01-preview" ## "2023-08-01-preview"
+# openai.api_version = "2023-05-15" # "2023-09-01-preview" ## "2023-08-01-preview" #
 # openai.api_type = "azure"
 # openai.api_key =  "4e0ebbead66047609cb60ca2d0bc57f4"
 deployment_id = "chatbot32k"#"chatbot1106"#"gpt432k"
